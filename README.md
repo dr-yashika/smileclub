@@ -1,7 +1,10 @@
 # Smile Club web app (phase 1)
 
-Mobile-first web app for the Davangere oral-health study, built from the "Day & Night" design (Option A, v4).
+Mobile-first web app for an oral-health study in children, built from the "Day & Night" design (Option A, v4).
 Phase 2 adds native Android (Kotlin) and iOS (Swift) apps that share `design-tokens/tokens.json`.
+
+- Live app: https://dr-yashika.github.io/smileclub/ (republished automatically on every push to `main`)
+- Study data: Supabase project `smile-app`, Mumbai region (ap-south-1)
 
 ## Status
 
