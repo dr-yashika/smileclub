@@ -6,15 +6,19 @@ import { speak, stopSpeaking } from '../lib/speech';
 import { go } from '../lib/router';
 import { IconFlame, IconHome, IconJourney, IconLearn, IconLock, IconRewards, IconSparkle, IconSpeaker, Wave } from './icons';
 
-// quiet: leaves out the gold sparkle, for screens with text where it would sit
+// quiet: leaves out the two sparkles, for text-heavy screens where they would sit on words
 export function Stars({ quiet = false }: { quiet?: boolean }) {
   return (
     <svg className="stars" viewBox="0 0 390 600" preserveAspectRatio="xMidYMin slice" aria-hidden="true">
       <circle cx="40" cy="150" r="1.6" fill="#fff" opacity=".7" /><circle cx="352" cy="128" r="1.4" fill="#fff" opacity=".6" />
       <circle cx="74" cy="430" r="1.4" fill="#fff" opacity=".5" /><circle cx="300" cy="200" r="1" fill="#fff" opacity=".5" />
       <circle cx="20" cy="330" r="1.2" fill="#fff" opacity=".5" /><circle cx="368" cy="380" r="1.2" fill="#fff" opacity=".5" />
-      {!quiet && <path d="M62 236c.8 4.6 4 7.8 8.6 8.6-4.6.8-7.8 4-8.6 8.6-.8-4.6-4-7.8-8.6-8.6 4.6-.8 7.8-4 8.6-8.6z" fill="#FFCB45" />}
-      <path d="M338 296c.6 3.4 2.9 5.7 6.3 6.3-3.4.6-5.7 2.9-6.3 6.3-.6-3.4-2.9-5.7-6.3-6.3 3.4-.6 5.7-2.9 6.3-6.3z" fill="#FFFFFF" opacity=".85" />
+      {!quiet && (
+        <>
+          <path d="M62 236c.8 4.6 4 7.8 8.6 8.6-4.6.8-7.8 4-8.6 8.6-.8-4.6-4-7.8-8.6-8.6 4.6-.8 7.8-4 8.6-8.6z" fill="#FFCB45" />
+          <path d="M338 296c.6 3.4 2.9 5.7 6.3 6.3-3.4.6-5.7 2.9-6.3 6.3-.6-3.4-2.9-5.7-6.3-6.3 3.4-.6 5.7-2.9 6.3-6.3z" fill="#FFFFFF" opacity=".85" />
+        </>
+      )}
     </svg>
   );
 }
