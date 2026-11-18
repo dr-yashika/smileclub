@@ -1,0 +1,31 @@
+/* Mirrors design-tokens/tokens.json. Keep both in sync. */
+:root {
+  --font: 'Nunito', 'Baloo 2', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-hi: 'Baloo 2', 'Nunito', system-ui, sans-serif;
+  --r-card: 24px; --r-tile: 28px; --r-btn: 22px;
+  --mint: #3DD6B5; --mint-edge: #1F9E83; --on-mint: #10142E;
+  --gold: #FFCB45; --coral: #FF8A6B; --lilac: #A99BFF;
+  --page: #0F1230;
+}
+[data-theme='night'] {
+  --sky-top: #252A6E; --sky: #1B1E4B; --ground: #15183F; --ground-line: #2C3170;
+  --surface: #262A63; --surface-soft: rgba(255,255,255,.06); --chip: rgba(255,255,255,.08);
+  --ink: #FFFFFF; --ink-2: #D3D5F2; --ink-3: #A3A7DA;
+  --tile: #2A2E6E; --tile-edge: #12153A; --tile-selected: #24505A;
+  --glow: #FFD86B; --badge-ring: #1F2359; --badge-edge: #12153A;
+  --muted-dot: rgba(255,255,255,.12); --track: rgba(255,255,255,.1);
+  --accent-ink: #3DD6B5; --gold-ink: #FFCB45; --gold-chip: rgba(255,203,69,.16);
+  --nav: #15183F; --nav-line: rgba(255,255,255,.06); --nav-active: rgba(61,214,181,.14); --nav-active-ink: #3DD6B5;
+  --page: #0F1230;
+}
+[data-theme='day'] {
+  --sky-top: #FFE7B3; --sky: #FFF4DC; --ground: #D7F3EA; --ground-line: #B9E8D9;
+  --surface: #FFFFFF; --surface-soft: #FFFFFF; --chip: rgba(255,255,255,.75);
+  --ink: #1B1E4B; --ink-2: #4A4E72; --ink-3: #5D6185;
+  --tile: #FFFFFF; --tile-edge: #EADCC0; --tile-selected: #E8FBF5;
+  --glow: #FFC93C; --badge-ring: #FFF1D2; --badge-edge: #F0D9A6;
+  --muted-dot: rgba(27,30,75,.08); --track: rgba(27,30,75,.1);
+  --accent-ink: #167A65; --gold-ink: #A86A00; --gold-chip: #FFFFFF;
+  --nav: #FFFFFF; --nav-line: #C4EADD; --nav-active: #D7F3EA; --nav-active-ink: #167A65;
+  --page: #EDE3CF;
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Smile Club",
+  "short_name": "Smile Club",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1B1E4B",
+  "theme_color": "#1B1E4B",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
