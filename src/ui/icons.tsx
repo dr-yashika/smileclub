@@ -5,6 +5,7 @@ const stroke = (c: string, w = 2.4) => ({ fill: 'none', stroke: c, strokeWidth: 
 
 export const IconLock = ({ size, color = 'currentColor' }: P) => <svg {...S(size)} {...stroke(color)}><rect x="5" y="11" width="14" height="10" rx="3" /><path d="M8 11V8a4 4 0 0 1 8 0v3" /></svg>;
 export const IconSpeaker = ({ size, color = 'currentColor' }: P) => <svg {...S(size)} {...stroke(color)}><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill={color} /><path d="M15.5 9a4 4 0 0 1 0 6M18.5 6.5a7.5 7.5 0 0 1 0 11" /></svg>;
+export const IconSpeakerOff = ({ size, color = 'currentColor' }: P) => <svg {...S(size)} {...stroke(color)}><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill={color} /><path d="M16 9.5l5 5M21 9.5l-5 5" /></svg>;
 export const IconClock = ({ size, color = 'currentColor' }: P) => <svg {...S(size)} {...stroke(color, 2.6)}><circle cx="12" cy="13" r="8" /><path d="M12 9v4l2.5 2M10 2h4" /></svg>;
 export const IconSparkle = ({ size, color = 'currentColor' }: P) => <svg {...S(size)}><path d="M12 1.5c.9 5.6 4.9 9.6 10.5 10.5-5.6.9-9.6 4.9-10.5 10.5-.9-5.6-4.9-9.6-10.5-10.5C7.1 11.1 11.1 7.1 12 1.5z" fill={color} /></svg>;
 export const IconFlame = ({ size = 22 }: P) => <svg width={size * 0.82} height={size} viewBox="0 0 20 24" aria-hidden="true"><path d="M10 1c1.2 5 7 7.2 7 13.6A7 7 0 0 1 3 14.6c0-3.4 1.7-5.6 3.6-7.4.2 2.8 1.2 4.1 3 5 .3-3.9-.9-7.3.4-11.2z" fill="#FF8A6B" /><path d="M10 13c1 2 3 3 3 5a3 3 0 0 1-6 0c0-1.6 1.4-2.8 3-5z" fill="#FFCB45" /></svg>;
